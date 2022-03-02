@@ -21,8 +21,7 @@ You need to set up your development environment before you can do anything.
 
 #### .env
 ```sh
-npm i -g yarn
-yarn
+cp .env.example .env
 ```
 
 [RPC endpoints available](https://docs.binance.org/smart-chain/developer/rpc.html)
