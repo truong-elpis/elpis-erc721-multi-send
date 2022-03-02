@@ -19,6 +19,11 @@ yarn
 You need to set up your development environment before you can do anything.
 
 #### .env
+```sh
+npm i -g yarn
+yarn
+```
+
 [RPC endpoints available](https://docs.binance.org/smart-chain/developer/rpc.html)
 ```dosini
 NFT_ADDRESS (The address of ERC721 token)
