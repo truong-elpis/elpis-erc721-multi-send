@@ -13,6 +13,7 @@ Install the dependencies and devDependencies and start the server.
 
 ```sh
 npm i -g yarn
+npm i -g typescript
 yarn
 ```
 ### Set up the Environment
