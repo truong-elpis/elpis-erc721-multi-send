@@ -9,7 +9,7 @@ The smart contract that does this can be viewed [here](https://bscscan.com/addre
 ### Installation
 Requires [Node.js](https://nodejs.org/) v14+ to run.
 
-Install the dependencies and devDependencies and start the server.
+Install the dependencies and devDependencies and start the script.
 
 ```sh
 npm i -g yarn
