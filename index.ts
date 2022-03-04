@@ -25,6 +25,7 @@ async function preTransfer() {
   const approved = await nftContract.isApprovedForAll(wallet.address, MULTI_SEND_CONTRACT_ADDRESS);
   if (!approved) {
     const tx = await nftContract.setApprovalForAll(MULTI_SEND_CONTRACT_ADDRESS, true);
+    await tx.wait()
     console.log("Execute approve transaction", tx);
   } 
   console.log("Approved all tokens for", MULTI_SEND_CONTRACT_ADDRESS)
